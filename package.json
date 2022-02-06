@@ -1,0 +1,11 @@
+{
+  "name": "tea-cozy2",
+  "version": "1.0.0",
+  "description": "codecademy project for flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artiom",
+  "license": "ISC"
+}
