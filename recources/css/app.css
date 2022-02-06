@@ -1,0 +1,89 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+    z-index: 1;
+  position: fixed;
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+header img {
+  margin: 1.2vh;
+}
+nav {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a { 
+    margin: 0 1vw;
+}
+main {
+  padding-top: 8vh;
+}
+#mission {
+    height: 100vh;
+    background-image: url(../img/img-mission-background.jpg);
+    display:flex;
+}
+#mission div {
+    height: fit-content;
+    width: 100%;
+
+}
+#teaOfMonth {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+#teaGroup { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#teaGroup figure {
+    height: 30vh;
+    width: 27%;
+}
+#teaGroup img {
+    width: 100%;
+    height: auto;
+}
+#teaGroup figcaption {
+    margin-top: 1vh;
+}
+#locations { 
+    background: url(../img/img-locations-background.jpg);
+    height: 60vh;
+}
+#locations,
+#mission { 
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    background-size: cover;
+}
+#locations h2 { 
+    padding-top: 5%;
+    background-color: transparent;
+}
+#locDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+#locDiv div{
+    width: 25%;
+}
+aside { 
+    text-align: left;
+    margin-left: 1vw;
+}
